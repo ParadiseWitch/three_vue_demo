@@ -1,2 +1,3 @@
 tasks:
-  - init: npm install && npm run serve
+  - before: npm i pnpm -g && pnpm i typescript -g && pnpm i vite -g
+  - init: pnpm install && pnpm run dev
