@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "vite",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -11,6 +12,7 @@
     "core-js": "^3.6.5",
     "three": "^0.134.0",
     "typescript": "^4.4.4",
+    "vite": "^1.0.0-rc.13",
     "vue": "^3.0.0"
   },
   "devDependencies": {
