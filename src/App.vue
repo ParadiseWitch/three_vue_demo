@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CalendarGraph></CalendarGraph>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { ref } from '@vue/reactivity'
+import CalendarGraph from './components/CalendarGraph.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CalendarGraph
+  },
+  setup(){
+    const r = ref()
   }
 }
 </script>

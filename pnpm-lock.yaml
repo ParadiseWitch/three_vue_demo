@@ -13,6 +13,7 @@ specifiers:
   typescript: ^4.4.4
   vite: ^1.0.0-rc.13
   vue: ^3.0.0
+  vue3-calendar-heatmap: ^1.0.9
 
 dependencies:
   core-js: 3.19.1
@@ -20,6 +21,7 @@ dependencies:
   typescript: 4.4.4
   vite: 1.0.0-rc.13
   vue: 3.2.21
+  vue3-calendar-heatmap: 1.0.9_vue@3.2.21
 
 devDependencies:
   '@vue/cli-plugin-babel': 4.5.15_227239f01a07eb556534ae20f4ff48ec
@@ -1274,6 +1276,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: false
+
+  /@popperjs/core/2.10.2:
+    resolution: {integrity: sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==}
     dev: false
 
   /@rollup/plugin-commonjs/16.0.0_rollup@2.59.0:
@@ -8595,6 +8601,12 @@ packages:
     resolution: {integrity: sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=}
     dev: true
 
+  /tippy.js/6.3.7:
+    resolution: {integrity: sha512-E1d3oP2emgJ9dRQZdf3Kkn0qJgI6ZLpyS5z6ZkY1DF3kaQaBsGZsndEpHwx+eC+tYM41HaSNvNtLx8tU57FzTQ==}
+    dependencies:
+      '@popperjs/core': 2.10.2
+    dev: false
+
   /tmp/0.0.33:
     resolution: {integrity: sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==}
     engines: {node: '>=0.6.0'}
@@ -9112,6 +9124,16 @@ packages:
       '@vue/runtime-dom': 3.2.21
       '@vue/server-renderer': 3.2.21_vue@3.2.21
       '@vue/shared': 3.2.21
+    dev: false
+
+  /vue3-calendar-heatmap/1.0.9_vue@3.2.21:
+    resolution: {integrity: sha512-yb0p68/TTUfe4MksY5lcdOomwGBCYhqbwoKO2Akc8WoQqmIYWMs4695GtPwpwP5/CVfwNToKinu+lJqXyEoqRg==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^3.0.5
+    dependencies:
+      tippy.js: 6.3.7
+      vue: 3.2.21
     dev: false
 
   /watchpack-chokidar2/2.0.1:

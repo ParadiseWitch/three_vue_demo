@@ -1,4 +1,5 @@
 {
     "editor.fontFamily": "fira code",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "emmet.triggerExpansionOnTab": true
 }
