@@ -5,33 +5,38 @@
     </div>
   </div> -->
   test
-  <CalendarHeatmap :values="contribution" :end-date="2018-9-22"></CalendarHeatmap>
+  <CalendarHeatmap
+    :values="contribution"
+    end-date="2021-11-20"
+    :max="5"
+    tooltip-unit="read"
+  ></CalendarHeatmap>
 </template>
-<script>
-import { reactive } from '@vue/reactivity';
+<script lang="ts">
+import { reactive } from "@vue/reactivity";
 import { CalendarHeatmap } from "vue3-calendar-heatmap";
 export default {
   components: {
     CalendarHeatmap,
   },
-  setup(){
+  setup() {
     let contribution = reactive([
-      { date: '2021-10-11', count: 1 },
-      { date: '2021-10-13', count: 6 },
-      { date: '2021-10-17', count: 6 },
-      { date: '2021-10-21', count: 6 },
-      { date: '2021-10-25', count: 6 },
-      { date: '2021-10-28', count: 6 },
-      { date: '2021-11-05', count: 6 },
-      { date: '2021-11-12', count: 10 },
-    ])
+      { date: "2021-10-11", count: 1 },
+      { date: "2021-10-13", count: 6 },
+      { date: "2021-10-17", count: 6 },
+      { date: "2021-10-21", count: 6 },
+      { date: "2021-10-25", count: 6 },
+      { date: "2021-10-28", count: 6 },
+      { date: "2021-11-05", count: 6 },
+      { date: "2021-11-12", count: 10 },
+    ]);
     return {
-      contribution
-    }
-  }
+      contribution,
+    };
+  },
 };
 </script>
-<style scoped>
+<style>
 .cg-container {
   display: flex;
   width: 100%;
@@ -49,5 +54,8 @@ export default {
   height: 10px;
   border-radius: 3px;
   background-color: aquamarine;
+}
+react{
+  border-radius: 50%;
 }
 </style>
