@@ -1,5 +1,4 @@
-import { PropType } from ".pnpm/@vue+runtime-core@3.2.21/node_modules/@vue/runtime-core";
-import {CalendarHeatmap} from "vue3-calendar-heatmap";
+import { CalendarHeatmap } from "vue3-calendar-heatmap";
 
 export default {
   title: 'Example/CalendarHeatmap',

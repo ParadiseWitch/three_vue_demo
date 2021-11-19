@@ -1,9 +1,4 @@
 <template>
-  <!-- <div class="cg-container">
-    <div v-for="item in 12" :key="item" class="cg-week-container">
-      <div v-for="item in 7" :key="item" class="cg-day-block"></div>
-    </div>
-  </div> -->
   <CalendarHeatmap
     :values="contribution"
     end-date="2021-11-20"
@@ -13,7 +8,7 @@
 </template>
 <script lang="ts">
 import { reactive } from "@vue/reactivity";
-import CalendarHeatmap from "vue3-calendar-heatmap";
+import { CalendarHeatmap } from "vue3-calendar-heatmap";
 export default {
   components: {
     CalendarHeatmap,
@@ -54,7 +49,7 @@ export default {
   border-radius: 3px;
   background-color: aquamarine;
 }
-react{
+react {
   border-radius: 50%;
 }
 </style>

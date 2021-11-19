@@ -2,9 +2,7 @@ import ProgressBar from "../components/ProgressBar.vue";
 export default {
   title: 'Example/ProgressBar',
   component: ProgressBar,
-  argTypes: {
-
-  },
+  argTypes: {},
 }
 
 const Template = (args: any) => ({
@@ -12,7 +10,7 @@ const Template = (args: any) => ({
   setup() {
     return { args };
   },
-  template: '<CalendarHeatmap v-bind="args"/>',
+  template: '<ProgressBar v-bind="args"/>',
 });
 
 export const demo = Template.bind<any>({});
