@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import VueCalendarHeatmap from 'vue3-calendar-heatmap'
 import App from './App.vue'
+import './index.css'
 
 createApp(App).mount('#app')
