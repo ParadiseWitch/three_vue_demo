@@ -13,5 +13,6 @@
     "lokalise.i18n-ally",
     "vivaxy.vscode-conventional-commits",
     "apollographql.vscode-apollo"
-  ]
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

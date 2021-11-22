@@ -26,6 +26,7 @@ const Template = (args: any) => ({
   template: '<CalendarHeatmap v-bind="args"/>',
 });
 
+console.log();
 export const Rect = Template.bind<any>({});
 let contribution = [
   { date: "2021-10-11", count: 1 },
@@ -38,7 +39,7 @@ let contribution = [
   { date: "2021-11-12", count: 10 },
 ];
 Rect.args = {
-  round: 0,
+  round: CalendarHeatmap.$props,
   'end-date': "2021-11-20",
   values: contribution,
 };
