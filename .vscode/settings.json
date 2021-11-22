@@ -1,5 +1,17 @@
 {
-    "editor.fontFamily": "fira code",
-    "editor.tabSize": 2,
-    "emmet.triggerExpansionOnTab": true
+  "editor.fontFamily": "fira code",
+  "editor.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true,
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "csstools.postcss",
+    "johnsoncodehk.volar",
+    "johnsoncodehk.vscode-typescript-vue-plugin",
+    "cpylua.language-postcss",
+    "bradlc.vscode-tailwindcss",
+    "lokalise.i18n-ally",
+    "vivaxy.vscode-conventional-commits",
+    "apollographql.vscode-apollo"
+  ]
 }
